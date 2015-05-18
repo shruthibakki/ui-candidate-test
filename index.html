@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Screenshot.html</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="assignment">
+        <meta name="keywords" content="HTML,CSS,JSON,JavaScript">
+        <meta name="author" content="Shruthi B">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/fullcalendar.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8" ></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/moment.min.js"></script>
+        <script type="text/javascript" src="js/fullcalendar.min.js"></script>
+        <script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <header id="header" class="table">
+                <h1 class="h4 color-1 fl">ExactTarget</h1>
+                <div class="default-margin-tpbtm fr">
+                    <p class="inline color-1 default-padding-lfrt">Welcome John</p>
+                    <ul id="main-nav" class="list-inline inline">
+                        <li>
+                            <a class="link" href="#">Account</a>
+                        </li>
+                        <li>
+                            <a class="link help" href="#">Help</a>
+                        </li>
+                        <li>
+                            <a class="link" href="#">LogOut</a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <div id="main-content">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-2">
+                        <div class="side-menu">
+                            <div class="table menu-header no-margin">
+                                <span class="icon marketing-hub"></span>
+                                <P class="h4 color-1 inline-block">
+                                    Interactive<br/>
+                                    Hub Marketing
+                                </P>
+                            </div>
+                            <div class="menu-body">
+                                <ul class="list-block nav-panel">
+                                    <li>
+                                        <span class="icon email"></span>
+                                        <span class="inline-block nav-title">ExtractTarget Email</span>
+                                    </li>
+                                    <li>
+                                        <span class="icon phone"></span>
+                                        <span class="inline-block nav-title">ExtractTarget Mobile</span>
+                                    </li>
+                                    <li>
+                                        <span class="icon co"></span>
+                                        <span class="inline-block nav-title">CoTweet Email</span>
+                                    </li>
+                                    <li>
+                                        <span class="icon map"></span>
+                                        <span class="inline-block nav-title">ExtractTarget Sites</span>
+                                    </li>
+                                </ul>
+
+                                <ul class="list-block nav-panel">
+                                    <li>
+                                        <span class="icon email"></span>
+                                        <span class="inline-block nav-title">Automation Studio</span>
+                                    </li>
+                                    <li>
+                                        <span class="icon phone"></span>
+                                        <span class="inline-block nav-title">Audience Builder</span>
+                                    </li>
+                                    <li>
+                                        <span class="icon co"></span>
+                                        <span class="inline-block nav-title">Report Builder</span>
+                                    </li>
+                                </ul>
+
+                                <ul class="list-block">
+                                    <li>
+                                        <span class="icon carrot"></span>
+                                        <span class="inline-block">Patner Application</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-10 col-md-10 col-sm-10">
+                        <div id='calendar'></div>
+
+                        <div class="feed-container">
+                            <p>
+                                <span class="icon title"></span>
+                            </p>
+
+
+                            <div id="carousel-generic" class="carousel slide" data-ride="carousel">
+                              <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                </ol>
+
+                              <!-- Wrapper for slides -->
+                                <div class="carousel-inner">
+                                    
+                                    <div class="item active">
+                                        <div class="row">
+                                            
+                                                <div class="col-sm-2 col-md-2 col-lg-2 carousel-item">
+                                                    <small class="item-title">following</small>
+                                                    <div class="carousel-element">
+                                                        <h3 class="color-6 no-margin no-padding">347</h3>
+                                                        <p class="color-7 no-margin no-padding">Added Today</p>
+                                                        <small class="color-7 no-margin no-padding">1,000,000 total</small>
+                                                    </div>
+
+                                                </div>
+                                                <div class="col-sm-2 col-md-2 col-lg-2 carousel-item">
+                                                    <small class="item-title">Fans</small>
+                                                    <div class="carousel-element">
+                                                        <h3 class="color-6 no-margin no-padding">347</h3>
+                                                        <p class="color-7 no-margin no-padding">Added Today</p>
+                                                        <small class="color-7 no-margin no-padding">1,000,000 total</small>
+                                                    </div>
+
+                                                </div>
+                                                <div class="col-sm-2 col-md-2 col-lg-2 carousel-item">
+                                                    <small class="item-title">Subscribers</small>
+                                                    <div class="carousel-element">
+                                                        <h3 class="color-6 no-margin no-padding">347</h3>
+                                                        <p class="color-7 no-margin no-padding">Added Today</p>
+                                                        <small class="color-7 no-margin no-padding">1,000,000 total</small>
+                                                    </div>
+
+                                                </div>
+                                                <div class="col-sm-3 col-md-3 col-lg-3 carousel-item">
+                                                    <small class="item-title">foursqure</small>
+                                                    <div class="carousel-element active">
+                                                        <img alt="" src="images/mp.png">
+                                                    </div>
+
+                                                </div>
+                                                <div class="col-sm-2 col-md-2 col-lg-2 carousel-item">
+                                                    <small class="item-title">Landing pages</small>
+                                                    <div class="carousel-element">
+                                                        <h3 class="color-6 no-margin no-padding">347</h3>
+                                                        <p class="color-7 no-margin no-padding">Added Today</p>
+                                                        <small class="color-7 no-margin no-padding">1,000,000 total</small>
+                                                    </div>
+
+                                                </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <!--
+                                    <div class="item">
+                                        <div class="row">
+                                            <div class="col-sm-2 col-md-2 col-lg-2 carousel-item">
+                                                <small>following</small>
+                                                <div class="carousel-element"></div>
+
+                                            </div>
+                                            <div class="col-sm-2 col-md-2 col-lg-2 carousel-item">
+                                                <small>following</small>
+                                                <div class="carousel-element"></div>
+
+                                            </div>
+                                            <div class="col-sm-3 col-md-3 col-lg-3 carousel-item">
+                                                <small>following</small>
+                                                <div class="carousel-element active"></div>
+
+                                            </div>
+                                            <div class="col-sm-2 col-md-2 col-lg-2 carousel-item">
+                                                <small>following</small>
+                                                <div class="carousel-element"></div>
+
+                                            </div>
+                                            <div class="col-sm-2 col-md-2 col-lg-2 carousel-item">
+                                                <small>following</small>
+                                                <div class="carousel-element"></div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    -->
+                                    <!-- 
+                                    <div class="item">
+                                        <div class="row">
+                                            <div class="">
+                                                <small>following</small>
+                                                <div class="carousel-element"></div>
+
+                                            </div>
+                                            <div class="">
+                                                <small>following</small>
+                                                <div class="carousel-element"></div>
+
+                                            </div>
+                                            <div class="">
+                                                <small>following</small>
+                                                <div class="carousel-element"></div>
+
+                                            </div>
+                                            <div class="">
+                                                <small>following</small>
+                                                <div class="carousel-element"></div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    -->
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer id="footer">
+                
+            </footer>
+            <div class="modal fade" id="myModal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Help JSON Feed</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>One fine body&hellip;</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div><!-- /.modal-content -->
+              </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+        </div>
+    </body>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var main = new SB.Module.Main();
+            main.init();
+        });
+    </script>
+</html>
